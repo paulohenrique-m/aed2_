@@ -1,4 +1,3 @@
-package unidadeb;
 /*
 faça um metodo que receba um array de inteiros e um numero inteiro x
 e retorne um valor boolean informando se o elemento x esta contido 
@@ -13,7 +12,7 @@ class Exe1{
     */
     //func para veriricar se o valor digitado esta contido no array
     public static boolean verificaArray(int array[],int aux) {
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i <= array.length; i++) {
             if(aux==i){
                 return true; 
             }
@@ -26,8 +25,12 @@ class Exe1{
         int aux=0;
         //preencheArray(array);
         //MyIO.println("array preenchido");
-        MyIO.println("informe o numero para pesquisa");
         aux = MyIO.readInt();
-
+        if (verificaArray(array,aux)){
+            MyIO.println("TRUE");
+        }else{
+            MyIO.println("FALSE");
+        }
+        
     }
  }
