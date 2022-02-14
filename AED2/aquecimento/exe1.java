@@ -36,7 +36,7 @@ public class Exe1 {
         String[] str = new String[2000];
         //recebe a frase/palavra enquanto nao for FIM   
         while(Final(str[num])==false){
-            str[num] = MyIO.readLine();
+            str[num] = MyIO.readString();
             num++;
         }
         //retirar o FIM do print
