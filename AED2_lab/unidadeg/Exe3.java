@@ -2,8 +2,8 @@
 faça um programa pra ler uma string e mostrar
 a primeira ocorrencia da letra A
 */
-
 public class Exe3 {
+    //func para verificar a primeira posição da string em que aparecer a letra A
     public static void lerString(String array) {
         int aux = 0;
         for (int i = 0; i < array.length(); i++) {

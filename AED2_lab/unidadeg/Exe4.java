@@ -29,13 +29,6 @@ public class Exe4 {
         MyIO.println("vogais-"+numVogais);
         MyIO.println("consoantes-"+(numConsoantes-numSimbolos));
     }
-
-
-
-
-
-
-
     public static void main(String[] args) {
         String array = MyIO.readLine(); 
         lerCaracteres(array);

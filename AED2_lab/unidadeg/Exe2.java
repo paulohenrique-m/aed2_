@@ -4,7 +4,7 @@ e quantas maiusculas
 */
 
 public class Exe2 {
-    //func para contar letras e maiusculas
+    //func para contar letras minusculas e maiusculas
     public static int contaLetras(String str){
         int numMaiusculas = 0;
         int numLetras = 0;

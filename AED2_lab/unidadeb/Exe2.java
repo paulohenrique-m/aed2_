@@ -8,7 +8,10 @@ do metodo
 */
 
 class Exe2{
-    //func para preencher o array com 10 numeros
+    /*
+    metodo para mostrar o maior e o menor elemento
+    do vetor
+    */
     public static void preencheArray(int array[]){   
         int maior = 0;
         int menor =2000;
@@ -25,10 +28,7 @@ class Exe2{
         MyIO.println("menor= " + menor);
     }
     
-    /*
-    metodo para mostrar o maior e o menor elemento
-    do vetor
-    */
+
     public static void main(String[] args){
         int[] array = new int[10];
         preencheArray(array);
