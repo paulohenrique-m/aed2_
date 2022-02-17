@@ -40,7 +40,11 @@ public class PalindromoJava {
         } while (isFinal(str[num++])==false);//
         num--;
         for (int i = 0; i < num; i++){
-            MyIO.println(isPalindromo(str[i]));
+            if(isPalindromo(str[i])==false){
+                MyIO.println("NAO");
+            }else{
+                MyIO.println("SIM");
+            }
         }
     }
 }
