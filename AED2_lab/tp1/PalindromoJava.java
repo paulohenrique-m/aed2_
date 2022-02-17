@@ -22,11 +22,11 @@ public class PalindromoJava {
     //}
     public static boolean isPalindromo(String str){
         String reversed= "";
-        for (int i = str.length() - 1; i >= 0; i--) {
+        for (int i = str.length() - 1; i >= 0; i--){
             reversed+= str.charAt(i);
         }
-        MyIO.println(reversed);
-        if (reversed.equals(str)) {
+        //NAO PODE USAR EQUALS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        if (reversed.equals(str)){
             return true;
         }else{
             return false;
